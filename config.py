@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Provide Daily Memes.\n\n<b>Maintained By : [ＬＯＫＩ ⛧](t.me/The_xGod_of_mischief)</b>")
+START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Sent you Daily Trending Memes And i hope you will like the memes.\n\n<b>Maintained By : <a href="t.me/The_xGod_of_mischief">ＬＯＫＩ ⛧</a></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
