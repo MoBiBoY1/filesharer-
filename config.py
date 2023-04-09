@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Provide Daily Memes.\n\n<b>Maintained By : [ＬＯＫＩ ⛧](t.me/The_xGod_of_mischief)</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,10 +58,10 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "❌ Don't send me messages! I'm a Daily memes providing Bot"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(6290455685)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
