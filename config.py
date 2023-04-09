@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Sent you Daily Trending Memes And i hope you will like the memes.\n\n<b>Maintained By : <a href="t.me/The_xGod_of_mischief">ＬＯＫＩ ⛧</a></b>")
+START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Provide Daily Memes.\n\n<b>Maintained By : [ＬＯＫＩ ⛧](t.me/The_xGod_of_mischief)</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>You need to join in my Channel to use me</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
