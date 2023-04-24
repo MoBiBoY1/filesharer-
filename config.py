@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = ("<b>👋🏻 Hello {first} Welcome To Meme Bot</b>\n\n💭 I can Sent you Daily Trending Memes And i hope you will love those memes.\n\n<b>Maintained By : <a href='t.me/The_xGod_of_mischief'>ＬＯＫＩ ⛧</a></b>")
+START_MSG = ("<b>👋🏻 Hello {first} Welcome To HAVAS</b>\n\n💭 I can Sent you Daily DESI LEAKS And i hope you will love those 🤤.\n\n")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ Don't send me messages! I'm a Daily memes providing Bot"
+USER_REPLY_TEXT = "❌ Don't send me messages! Better dm my owner 😘 @cutie_xbot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6290455685)
