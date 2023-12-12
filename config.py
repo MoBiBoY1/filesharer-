@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>You need to join in my Channel to use me</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>You need to join in my Channel to use me </b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ Don't send me messages! Better dm my owner 😘 @cutie_xbot"
+USER_REPLY_TEXT = "❌ Notty Hora Kya bkl 👀 | Don't send me messages! Better dm my owner 😘 @dev_alt_bot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6290455685)
